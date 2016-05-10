@@ -1,0 +1,129 @@
+.carousel-hider {
+    width: 600px;
+    overflow: hidden;
+    float: left;
+}
+ 
+.carousel-list {    
+    list-style: none;
+    width: 10000px;
+}
+ 
+.carousel-element {
+    display: block;
+    margin-right: 25px;
+    float: left;
+}
+ 
+.carousel-element img {
+    max-width: 100px;
+}
+ 
+
+.carousel-list {    
+    list-style: none;
+    width: 10000px;
+    padding: 0px;
+}
+.carousel-arrow-left, .carousel-arrow-right {
+    float: left;
+    display: block;
+    border: 1px solid grey;
+    background-color: lightgrey;
+    padding: 5px;
+    margin-top: 50px;
+}
+ 
+.carousel-arrow-left:hover, .carousel-arrow-right:hover {
+    cursor: pointer;
+    background-color: grey;
+}
+ 
+.carousel-arrow-left {
+    margin-right: 25px;
+}
+ 
+.carousel-arrow-right {
+    margin-left: 25px;
+}
+
+
+.carousel-list {    
+    list-style: none;
+    width: 10000px;
+    padding: 0px;
+    position: relative;
+}
+
+
+ 
+.wrapper{
+        background: #E8E8E8;
+        margin: 0 auto;
+    width: 1440px;
+    height: 806px;
+
+    border-bottom: 4px solid black;
+    border-radius: 5px;
+}
+.head{
+    background: White;
+    margin: 0 auto;
+    box-shadow: 0px 0px 8px -1px #808080;
+        width: 510px;
+        height: 750px;
+        font-weight: bold;
+        font-size: 17px; 
+        line-height: 1.5;
+        padding-left: 60px; 
+        padding-right: 60px;
+}
+
+.border{
+        border-bottom: 1px solid black;
+        
+}
+ h1{
+ /*   text-align: center; */ 
+    font-size: 21px; 
+    font-weight: 650;
+}
+.img {
+    width: 150px;
+    height: 150px;
+        display:block;
+        margin:10px auto 10px;
+}
+.phone{
+    padding-bottom: 20px;
+}
+
+
+
+.contacts,
+.footer{
+    border-bottom: 1px solid black;
+    padding-top: 15px;
+    padding-bottom:15px;
+    padding-left: 20px; 
+}
+.footer{
+    border-bottom: 0px;
+    padding-top: 30px;
+}
+.answers{
+
+    border-bottom: 1px solid black;
+    padding-top: 15px;
+}
+
+  li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+   ul {
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+   }
+   .clearfix {
+    overflow: hidden;
+}
